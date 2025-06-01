@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manas Rao – Resume</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 2cm;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .resume {
+      width: 210mm;
+      min-height: 297mm;
+      padding: 2cm;
+      margin: auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      margin: 5px 0;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    section {
+      margin-bottom: 25px;
+    }
+
+    section h2 {
+      border-bottom: 1px solid #000;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      font-size: 1.2em;
+      text-transform: uppercase;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .skills, .projects {
+      list-style-type: disc;
+    }
+
+    .skills li, .projects li {
+      margin-bottom: 5px;
+    }
+
+    @media print {
+      a::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <header>
+      <h1>Manas Rao</h1>
+      <p>Website Developer | HTML, CSS & JavaScript</p>
+      <p>Email: manas@example.com | Phone: +91-XXXXXXXXXX</p>
+      <p>
+        <a href="https://github.com/manasrao">GitHub</a> |
+        <a href="https://linkedin.com/in/manasrao">LinkedIn</a> |
+        <a href="https://twitter.com/manasrao">Twitter</a>
+      </p>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Passionate website developer with expertise in HTML, CSS, and JavaScript. Dedicated to creating responsive, accessible, and high-performance websites.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+        <li>Git & GitHub</li>
+        <li>VS Code</li>
+        <li>SEO Basics</li>
+        <li>Web Performance</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul class="projects">
+        <li><strong>Responsive Business Website</strong> – Clean layout with interactive elements using JS.</li>
+        <li><strong>Portfolio Website</strong> – Smooth scroll, animation, and professional UI.</li>
+        <li><strong>E-Commerce Mockup</strong> – Product list, cart UI, and minimal checkout page.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: manas@example.com</p>
+      <p>Phone: +91-XXXXXXXXXX</p>
+    </section>
+  </div>
+</body>
+</html>
